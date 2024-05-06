@@ -1,0 +1,64 @@
+﻿@model TestFoodIt.Entities.Reservation
+@{
+    ViewBag.Title = "ReservationUpdate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="container-fluid" id="container-wrapper">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Rezervasyon Güncelleme Sayfası</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/Dashboard/Index">Anasayfa</a></li>
+            <li class="breadcrumb-item">Rezervasyonlar</li>
+            <li class="breadcrumb-item active" aria-current="page">Rezervasyon İşlemleri</li>
+        </ol>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Form Basic -->
+            <div class="card mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Güncelleme Paneli</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            @Html.HiddenFor(x => x.ReservationId)
+                        </div>
+                        <div class="form-group">
+                            <h5>Misafir Adı</h5>
+                            @Html.TextBoxFor(x=>x.Name,new { @class = "form-control" })
+                            <br />
+                            <h5>Konuk Sayısı</h5>
+                            @Html.TextBoxFor(x=>x.GuestCount,new { @class = "form-control" })
+                            <br />
+                            <h5>Telefon</h5>
+                            @Html.TextBoxFor(x=>x.Phone,new { @class = "form-control" })
+                            <br />
+                            <h5>Rezervasyon Tarihi</h5>
+                            @Html.TextBoxFor(x=>x.ReservationDate,new { @class = "form-control" })
+                            <br />
+                            <div class="row">
+                                <div class="row ml-3">
+                                    @Html.RadioButtonFor(x => x.ReservationStatus, "onaylandi", new { @class = "form-check", id = "onaylandi" })
+                                    <label class="btn btn-success ml-2" for="onaylandi">Onaylandı</label>
+                                </div>
+                                <div class="row ml-5">
+                                    @Html.RadioButtonFor(x => x.ReservationStatus, "bekliyor", new { @class = "form-check", id = "bekliyor" })
+                                    <label class="btn btn-warning ml-2" for="bekliyor">Bekliyor</label>
+                                </div>
+                                <div class="row ml-5">
+                                    @Html.RadioButtonFor(x => x.ReservationStatus, "iptal", new { @class = "form-check", id = "iptal" })
+                                    <label class="btn btn-danger ml-2" for="iptal">İptal</label>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Rezervasyonu Güncelle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

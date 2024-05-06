@@ -1,0 +1,148 @@
+﻿@model TestFoodIt.Entities.Notification
+@{
+    ViewBag.Title = "NotificationUpdate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="container-fluid" id="container-wrapper">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Bildirim Güncelleme Sayfası</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/Dashboard/Index">Anasayfa</a></li>
+            <li class="breadcrumb-item">Bildirim</li>
+            <li class="breadcrumb-item active" aria-current="page">Bildirim İşlemleri</li>
+        </ol>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Form Basic -->
+            <div class="card mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Güncelleme Paneli</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            @Html.HiddenFor(x => x.NotificationId)
+                            @Html.HiddenFor(x=>x.Date)
+                        </div>
+                        <div class="form-group">
+                            <label>Bildirim Açıklaması</label>
+                            @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+                            <br />
+                        </div>
+                        <div class="dropdown-divider">
+                        </div>
+                        <div class="form-group">
+                            <label>Icon</label>
+                            <div class="form-check">
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-thumbs-up", new { @class = "btn-check", id = "thumbs-up", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="thumbs-up"><i class="fas fa-thumbs-up"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-thumbs-down", new { @class = "btn-check", id = "thumbs-down", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="thumbs-down"><i class="fas fa-thumbs-down"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-star", new { @class = "btn-check", id = "star", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="star"><i class="fas fa-star"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-wifi", new { @class = "btn-check", id = "wifi", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="wifi"><i class="fas fa-wifi"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-lightbulb", new { @class = "btn-check", id = "lightbulb", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="lightbulb"><i class="fas fa-lightbulb"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-tags", new { @class = "btn-check", id = "tags", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="tags"><i class="fas fa-tags"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-info-circle", new { @class = "btn-check", id = "info-circle", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="info-circle"><i class="fas fa-info-circle"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-cogs", new { @class = "btn-check", id = "cogs", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="cogs"><i class="fas fa-cogs"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-calendar-alt", new { @class = "btn-check", id = "calendar-alt", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="calendar-alt"><i class="fas fa-calendar-alt"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-power-off", new { @class = "btn-check", id = "power-off", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="power-off"><i class="fas fa-power-off"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-cart-arrow-down", new { @class = "btn-check", id = "cart-arrow-down", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="cart-arrow-down"><i class="fas fa-cart-arrow-down"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-bullhorn", new { @class = "btn-check", id = "bullhorn", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="bullhorn"><i class="fas fa-bullhorn"></i></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.Icon, "fas fa-bullhorn", new { @class = "btn-check", id = "sync-alt", autocomplete = "off" })
+                                    <label class="btn btn-light m-md-1" for="sync-alt"><i class="fas fa-sync-alt"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider">
+                        </div>
+                        <div class="form-group">
+                            <label>Renk</label>
+                            <div class="form-check">
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-primary", new { @class = "btn-check", id = "blue", autocomplete = "off" })
+                                    <label class="btn bg-primary text-white m-md-1" for="blue">Mavi</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-secondary", new { @class = "btn-check", id = "gray", autocomplete = "off" })
+                                    <label class="btn bg-secondary text-white m-md-1" for="gray">Gri</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-success", new { @class = "btn-check", id = "green", autocomplete = "off" })
+                                    <label class="btn bg-success text-white m-md-1" for="green">Yeşil</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-info", new { @class = "btn-check", id = "lightblue", autocomplete = "off" })
+                                    <label class="btn bg-info text-white m-md-1" for="lightblue">Açık Mavi</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-warning", new { @class = "btn-check", id = "orange", autocomplete = "off" })
+                                    <label class="btn bg-warning text-white m-md-1" for="orange">Turuncu</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-danger", new { @class = "btn-check", id = "red", autocomplete = "off" })
+                                    <label class="btn bg-danger text-white m-md-1" for="red">Kırmızı</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    @Html.RadioButtonFor(x => x.IconColor, "bg-dark", new { @class = "btn-check", id = "dark", autocomplete = "off" })
+                                    <label class="btn bg-dark text-white m-md-1" for="dark">Siyah</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                @Html.RadioButtonFor(x => x.IsRead, "True", new { @class = "btn-check", id = "True" });
+                                <label class="btn btn-dark m-md-1" for="True">Okundu</label>
+                                <br />
+                                @Html.RadioButtonFor(x => x.IsRead, "False", new { @class = "btn-check", id = "False" });
+                                <label class="btn btn-danger" for="False">Okunmadı</label>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider">
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-outline-primary">Bildirim Güncelle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model TestFoodIt.Entities.Admin
+@{
+    ViewBag.Title = "AdminCreate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="container-fluid" id="container-wrapper">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Kullanıcı Kayıt Sayfası</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/Product/ProductList">Anasayfa</a></li>
+            <li class="breadcrumb-item">Kullanıcılar</li>
+            <li class="breadcrumb-item active" aria-current="page">Kullanıcı Kayıt Paneli</li>
+        </ol>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Form Basic -->
+            <div class="card mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Ekleme Paneli</h6>
+                </div>
+                <div class="card-body">
+                    @using (Html.BeginForm("AdminCreate", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="form-group">
+                            <label>Adı Soyadı</label>
+                            @Html.TextBoxFor(x => x.Namesurname, new { @class = "form-control" })
+                            <br />
+                            <label>Kullanıcı Adı</label>
+                            @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+                            <br />
+                            <label>Parola</label>
+                            @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                            <br />
+                            <label>Şef Fotoğrafı</label>
+                            <input type="file" name="UserPhotoURL" />
+                            <br />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kullanıcıyı Sisteme Kaydet</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿@model TestFoodIt.Entities.Slider
+@{
+    ViewBag.Title = "SliderCreate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="container-fluid" id="container-wrapper">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Slider Kayıt Sayfası</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/Product/ProductList">Anasayfa</a></li>
+            <li class="breadcrumb-item">Sliderlar</li>
+            <li class="breadcrumb-item active" aria-current="page">Slider Kayıt Paneli</li>
+        </ol>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Form Basic -->
+            <div class="card mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Ekleme Paneli</h6>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            <label>Büyük Başlık</label>
+                            @Html.TextBoxFor(x => x.SliderHeading, new { @class = "form-control" })
+                            <br />
+                            <label>Küçük Başlık</label>
+                            @Html.TextBoxFor(x => x.SliderTitle, new { @class = "form-control" })
+                            <br />
+                            <label>Açıklama</label>
+                            @Html.TextBoxFor(x => x.SliderDescription, new { @class = "form-control" })
+                            <br />
+                            <label>Slider Görsel URL</label>
+                            @Html.TextBoxFor(x => x.SliderUrl, new { @class = "form-control" })
+                            <br />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sliderı Sisteme Kaydet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

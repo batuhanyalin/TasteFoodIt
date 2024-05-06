@@ -1,0 +1,85 @@
+﻿@model TestFoodIt.Entities.Reservation
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Default/DefaultL.cshtml";
+}
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url('/Templates/tasteit-master/images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate text-center mb-5">
+                <h1 class="mb-2 bread">Rezervasyon Yap</h1>
+                <p class="breadcrumbs"><span class="mr-2"><a href="/Default/Index">Anasayfa <i class="fa fa-chevron-right"></i></a></span> <span>Rezervasyon<i class="fa fa-chevron-right"></i></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-sm-12 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary">
+                @using (Html.BeginForm("ReservationAppointment", "Default", FormMethod.Post))
+                {
+
+                    <h3 style="color:cornsilk" class="mb-3">Rezervasyon Paneli</h3>
+                    <div class="row justify-content-center">
+                        <div style="font-size:large;color:aqua"  class="col-md-4">
+                            <div class="form-group">
+                                <div class="icon" style="color:white"><i class="fas fa-drumstick-bite"></i></div>
+                                @Html.TextBoxFor(x => x.Name, new { placeholder = "Ad Soyad", @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.Name,"",new { style = "font-size:large;color:aqua" })
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                @Html.TextBoxFor(x => x.Email, new { placeholder = "E-posta", @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.Email, "", new { style = "font-size:large;color:aqua" })
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                @Html.TextBoxFor(x => x.Phone, new { placeholder = "Telefon", @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.Phone, "", new { style = "font-size:large;color:aqua" })
+
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <div class="input-wrap">
+                                    <div class="icon" style="color:white"><span class="fa fa-calendar"></span><span style="color:white"> Tarih Seçin</span></div>
+                                    @Html.TextBoxFor(m => m.ReservationDate, new { type = "date",@id="RezDate",@name="RezDate"})
+                                    <div style="color:yellow">
+                                        @Html.ValidationSummary(true)
+                                        @Html.ValidationMessageFor(m => m.ReservationDate,"",new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <div class="select-wrap">
+                                        <div class="icon"><span class="fa fa-chevron-down"></span><span style="color:white"> Konuk Sayısı</span></div>
+                                        <select name="GuestCount" id="" class="form-control">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <input id="btn1" type="submit" value="Rezervasyon Oluştur" class="btn btn-block btn btn-info py-3 px-4">
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+

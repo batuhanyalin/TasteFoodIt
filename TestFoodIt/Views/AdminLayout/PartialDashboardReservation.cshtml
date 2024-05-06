@@ -1,0 +1,59 @@
+﻿@model List<TestFoodIt.Entities.Reservation>
+<div class="col-xl-8 col-lg-7 mb-4">
+    <div class="card">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Rezervasyonlar</h6>
+            <a class="m-0 float-right btn btn-danger btn-sm" href="/Reservation/ReservationList">
+                <span style="font-size:smaller">Toplam Rezervasyon Sayısı: @ViewBag.v1 |</span>
+                Hepsini Göster <i class="fas fa-chevron-right"></i>
+            </a>
+
+        </div>
+        <div class="table-responsive">
+            <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Reservation ID</th>
+                        <th>Müşteri Adı</th>
+                        <th>Konuk Sayısı</th>
+                        <th>Rezervasyon Tarihi</th>
+                        <th>Durum</th>
+                        <th>Detay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        string status = "";
+                        string statusText = "";
+                        if (item.ReservationStatus=="onaylandi")
+                        {
+                            status= "badge-success";
+                            statusText= "Onaylandı";
+                        }
+                       else if (item.ReservationStatus=="iptal")
+                        {
+                            status= "badge-danger";
+                            statusText= "İptal Edildi";
+                        }
+                        else
+                        {
+                             status= "badge-warning";
+                             statusText= "Bekliyor";
+                        }
+
+                    <tr>
+                        <td><a href="/Reservation/ReservationUpdate/@item.ReservationId">@item.ReservationId</a></td>
+                        <td>@item.Name</td>
+                        <td>@item.GuestCount</td>
+                        <td>@item.ReservationDate</td>
+                        <td><span class="badge @status" style="color:white">@statusText</span></td>
+                        <td><a href="/Reservation/ReservationUpdate/@item.ReservationId" class="btn btn-sm btn-primary">Bilgi</a></td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer"></div>
+    </div>
+</div>
