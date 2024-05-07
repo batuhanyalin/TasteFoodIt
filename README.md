@@ -17,43 +17,47 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 * Authentication - authorize sistemi.
 * Login sistemi
 # Yönetici Paneli
+
+#### Dashboard
 ![Dashboard](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboard.png?raw=true)
-
+#### Dashboard Bildirim
 ![Dashboard Bildirim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboardnotif.png?raw=true)
-
+#### Kategoriler
 ![Kategoriler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/categorylist.png?raw=true)
-
+#### Ürünler
 ![Ürünler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/productlist.png?raw=true)
-
+#### Şefler
 ![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/cheflist.png?raw=true)
-
+#### Rezervasyonlar
 ![Rezervasyonlar](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationlist.png?raw=true)
-
+#### Rezervasyon Güncelleme
 ![Rezervasyon Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationupdate.png?raw=true)
-
+#### Bildirimler
 ![Bildirimler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/notificationlist.png?raw=true)
-
+#### İletişim Bilgileri
 ![İletişim Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contactlist.jpg?raw=true)
-
+#### Hakkımızda Bilgileri
 ![Hakkımızda Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/aboutlist.png?raw=true)
-
+#### Adres Bilgileri
 ![Adres Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/addresslist.png?raw=true)
-
+#### Çalışma Saat Bilgileri
 ![Çalışma Saati Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/workhourlist.png?raw=true)
-
+#### Dashboard
 ![Profil Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/profileupdate.png?raw=true)
 # Kullanıcı Arayüzü
+
+### Slider
 ![Slider](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/slider.png?raw=true)
-
+### Hakkımızda
 ![Hakkımızda](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/about.png?raw=true)
-
+### Şefler
 ![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/chef.png?raw=true)
-
+### İletişim
 ![İletişim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contact.png?raw=true)
-
+### Yorumlar
 ![Yorumlar](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/testimonial.png?raw=true)
-
+### Rezervasyon
 ![Rezervasyon](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservation.png?raw=true)
-
+### Footer
 ![Footer](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/footer.png?raw=true)
 
