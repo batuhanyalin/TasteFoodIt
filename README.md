@@ -17,31 +17,43 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 * Authentication - authorize sistemi.
 * Login sistemi
 # Yönetici Paneli
-![Dashboard](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboard.jpg?raw=true)
+![Dashboard](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboard.png?raw=true)
 
-![Dashboard Bildirim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboardnotif.jpg?raw=true)
+![Dashboard Bildirim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboardnotif.png?raw=true)
 
-![Kategoriler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/categorylist.jpg?raw=true)
+![Kategoriler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/categorylist.png?raw=true)
 
-![Ürünler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/productlist.jpg?raw=true)
+![Ürünler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/productlist.png?raw=true)
 
-![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/cheflist.jpg?raw=true)
+![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/cheflist.png?raw=true)
 
-![Rezervasyonlar](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationlist.jpg?raw=true)
+![Rezervasyonlar](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationlist.png?raw=true)
 
-![Rezervasyon Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationupdate.jpg?raw=true)
+![Rezervasyon Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationupdate.png?raw=true)
 
-![Bildirimler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/notificationlist.jpg?raw=true)
+![Bildirimler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/notificationlist.png?raw=true)
 
 ![İletişim Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contactlist.jpg?raw=true)
 
-![Hakkımızda Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/aboutlist.jpg?raw=true)
+![Hakkımızda Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/aboutlist.png?raw=true)
 
-![Adres Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/addresslist.jpg?raw=true)
+![Adres Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/addresslist.png?raw=true)
 
-![Çalışma Saati Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/workhourlist.jpg?raw=true)
+![Çalışma Saati Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/workhourlist.png?raw=true)
 
-![Profil Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/profileupdate.jpg?raw=true)
+![Profil Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/profileupdate.png?raw=true)
+# Kullanıcı Arayüzü
+![Slider](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/slider.png?raw=true)
 
+![Hakkımızda](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/about.png?raw=true)
 
+![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/chef.png?raw=true)
+
+![İletişim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contact.png?raw=true)
+
+![Yorumlar](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/testimonial.png?raw=true)
+
+![Rezervasyon](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservation.png?raw=true)
+
+![Footer](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/footer.png?raw=true)
 
