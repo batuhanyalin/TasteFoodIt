@@ -17,31 +17,31 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 * Authentication - authorize sistemi.
 * Login sistemi
 # Yönetici Paneli
-![Dashboard](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/dashboard.jpg?raw=true)
+![Dashboard](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboard.jpg?raw=true)
 
-![Dashboard Bildirim](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/dashboardnotif.jpg?raw=true)
+![Dashboard Bildirim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboardnotif.jpg?raw=true)
 
-![Kategoriler](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/categorylist.jpg?raw=true)
+![Kategoriler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/categorylist.jpg?raw=true)
 
-![Ürünler](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/productlist.jpg?raw=true)
+![Ürünler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/productlist.jpg?raw=true)
 
-![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/cheflist.jpg?raw=true)
+![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/cheflist.jpg?raw=true)
 
-![Rezervasyonlar](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/reservationlist.jpg?raw=true)
+![Rezervasyonlar](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationlist.jpg?raw=true)
 
-![Rezervasyon Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/reservationupdate.jpg?raw=true)
+![Rezervasyon Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/reservationupdate.jpg?raw=true)
 
-![Bildirimler](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/notificationlist.jpg?raw=true)
+![Bildirimler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/notificationlist.jpg?raw=true)
 
-![İletişim Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/contactlist.jpg?raw=true)
+![İletişim Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contactlist.jpg?raw=true)
 
-![Hakkımızda Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/aboutlist.jpg?raw=true)
+![Hakkımızda Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/aboutlist.jpg?raw=true)
 
-![Adres Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/addresslist.jpg?raw=true)
+![Adres Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/addresslist.jpg?raw=true)
 
-![Çalışma Saati Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/workhourlist.jpg?raw=true)
+![Çalışma Saati Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/workhourlist.jpg?raw=true)
 
-![Profil Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/main/TestFoodIt/ScreenShots/profileupdate.jpg?raw=true)
+![Profil Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/profileupdate.jpg?raw=true)
 
 
 
