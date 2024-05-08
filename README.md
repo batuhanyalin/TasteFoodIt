@@ -54,6 +54,8 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 ![Hakkımızda](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/about.png?raw=true)
 ### Şefler
 ![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/chef.png?raw=true)
+### Menü
+![Şefler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/menu.png?raw=true)
 ### İletişim
 ![İletişim](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contact.png?raw=true)
 ### Yorumlar
