@@ -35,7 +35,7 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 #### Bildirimler
 ![Bildirimler](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/notificationlist.png?raw=true)
 #### İletişim Bilgileri
-![İletişim Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contactlist.jpg?raw=true)
+![İletişim Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/contactlist.png?raw=true)
 #### Hakkımızda Bilgileri
 ![Hakkımızda Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/aboutlist.png?raw=true)
 #### Adres Bilgileri
