@@ -18,6 +18,7 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 * 401 - 404 sayfalarının bulunması.
 * Authentication - authorize sistemi.
 * Login sistemi
+* Linq sorguları
 # Yönetici Paneli
 
 #### Dashboard
