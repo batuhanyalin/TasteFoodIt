@@ -1,11 +1,13 @@
 # Asp.Net MVC 5 CodeFirst - Restorant Sitesi TasteFoodIt Projesi
-M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştirmiş olduğum restorant sitesi projesidir.
+M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştirmiş olduğum restorant sitesi projesidir. Proje bir restorantın rezervasyon, menü görüntüleme ve iletişim gibi bütün gerekli işlemlerini yaptırmaktadır. Arka tarafında bulunan yönetim paneline kullanıcı adı parola ile giriş yapılarak, kullanıcı arayüzünde gözüken bütün veriler dinamik olarak düzenlenebilmektedir.
 ## Projeye Ait Bazı Özellikler;
 * Proje Asp.Net MVC 5 mimarisinde CodeFirst yaklaşımıyla yapıldı.
+* Projede bol bol iç içe layout ve partialview yapısı kullanıldı.
 * Müşterileri istedikleri tarihe göre rezervasyon yapabilmektedirler ve eğer o gün rezervasyon limiti dolduysa bu rezervasyon ekranında müşteriye uyarı şeklinde gösterilmektedir.
 * Müşteri iletişim sayfasından sisteme mesaj gönderebilmektedir.
 * Gönderilen mesaj ve rezervasyonlar yönetici paneline anında düşmekte ve durumlarıyla ilgili değişiklikler yapılabilmektedir.
 * Dashboard ekranında bildirimler alınabilmekte ve veriler grafik bazlı istatistiksel olarak gösterilebilmektedir.
+* Üst barda gösterilen bildirimler eğer okunmuşsa normal tonda, okunmamışsa bold tonda gösterilmekte ve okunmayan bildirim sayısı kırmızı tonda yazılmaktadır. Eğer bütün bildirimler okunduysa sayı bölümü yeşile dönüp 0 basmaktadır.
 * Kullanıcı arayüzündeki bütün detaylar yönetici panelinden revize edilebilmektedir.
 * Bütün veriler CodeFirst yaklaşımıyla MSSQL' de tutulmaktadır. Proje %100 oranında dinamik halde çalışmaktadır.
 * Projenin yönetici panelinden bütün veriler tek tıklamayla rahatça güncellenebilmektedir.
