@@ -44,7 +44,7 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 ![Adres Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/addresslist.png?raw=true)
 #### Çalışma Saat Bilgileri
 ![Çalışma Saati Bilgileri](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/workhourlist.png?raw=true)
-#### Dashboard
+#### Profil Güncelleme
 ![Profil Güncelleme](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/profileupdate.png?raw=true)
 # Kullanıcı Arayüzü
 
