@@ -19,8 +19,11 @@ M&Y Yazılım Akademi Danışmanlıktan aldığım eğitim kapsamında geliştir
 * Authentication - authorize sistemi.
 * Login sistemi
 * Linq sorguları
-# Yönetici Paneli
 
+# Vertabanı
+![Veritabanı](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/database.png?raw=true)
+
+# Yönetici Paneli
 #### Dashboard
 ![Dashboard](https://github.com/batuhanyalin/TasteFoodIt/blob/master/TestFoodIt/ScreenShots/dashboard.png?raw=true)
 #### Dashboard Bildirim
