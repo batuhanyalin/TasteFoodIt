@@ -78,7 +78,6 @@ C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\bin\Antlr3.Runtime.pdb
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.csproj.AssemblyReference.cache
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.csproj.CoreCompileInputs.cache
-C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.csproj.CopyComplete
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.dll
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.pdb
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.Migrations.mg1.resources
@@ -98,3 +97,4 @@ C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.Migration
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.Migrations.v14.resources
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.Migrations.v17.resources
 C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.Migrations.Initial.resources
+C:\Users\batuh\source\repos\TestFoodIt\TestFoodIt\obj\Debug\TestFoodIt.csproj.Up2Date
